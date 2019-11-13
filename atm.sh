@@ -1,5 +1,5 @@
 pin_try=0
-
+##HELLO
 # read file #
 read_file(){
   IFS="|" read -r -a array <<< `cat user_details.txt`
